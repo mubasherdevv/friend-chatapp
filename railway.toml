@@ -1,0 +1,11 @@
+[build]
+builder = "nixpacks"
+buildCommand = "composer install --no-dev --optimize-autoloader"
+
+[deploy]
+startCommand = "vendor/bin/heroku-php-apache2"
+healthcheckPath = "/health.php"
+healthcheckTimeout = 100
+
+[env]
+PHP_VERSION = "8.1"
