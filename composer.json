@@ -1,0 +1,33 @@
+{
+    "name": "mubasher-whatsappbot/web-chat-app",
+    "type": "project",
+    "description": "WhatsApp-style Web Chat Application",
+    "require": {
+        "php": "^8.1",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-mysqli": "*"
+    },
+    "autoload": {
+        "classmap": [
+            "includes/"
+        ],
+        "files": [
+            "includes/functions.php"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "platform": {
+            "php": "8.1",
+            "ext-mysqli": "1"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ]
+    }
+}

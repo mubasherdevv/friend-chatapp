@@ -1,0 +1,123 @@
+[2025-01-28 19:03:29] POST data received: Array
+(
+)
+
+[2025-01-28 19:03:29] Processing update for user ID: 2
+[2025-01-28 19:03:29] Received data - Username: , Email: , Bio length: 0, DOB: 
+[2025-01-28 19:03:29] Missing required fields - Username: missing, Email: missing
+[2025-01-28 19:04:02] POST data received: Array
+(
+)
+
+[2025-01-28 19:04:02] Processing update for user ID: 2
+[2025-01-28 19:04:02] Received data - Username: , Email: , Bio length: 0, DOB: 
+[2025-01-28 19:04:02] Missing required fields - Username: missing, Email: missing
+[2025-01-28 19:04:18] POST data received: Array
+(
+)
+
+[2025-01-28 19:04:18] Processing update for user ID: 2
+[2025-01-28 19:04:18] Received data - Username: , Email: , Bio length: 0, DOB: 
+[2025-01-28 19:04:18] Missing required fields - Username: missing, Email: missing
+[2025-01-28 19:06:09] POST data received: Array
+(
+    [username] => talhaa
+    [email] => talha@gmail.com
+    [bio] => 
+    [date_of_birth] => 
+)
+
+[2025-01-28 19:06:09] File upload data: Array
+(
+    [name] => s-1.png
+    [full_path] => s-1.png
+    [type] => image/png
+    [tmp_name] => F:\xampp\tmp\php6A6D.tmp
+    [error] => 0
+    [size] => 183557
+)
+
+[2025-01-28 19:06:09] Processing update for user ID: 2
+[2025-01-28 19:06:09] Received data - Username: talhaa, Email: talha@gmail.com, Bio length: 0, DOB: 
+[2025-01-28 19:06:09] Avatar uploaded successfully: uploads/avatars/2_1738087569.png
+[2025-01-28 19:06:09] Executing query: UPDATE users SET username = ?, email = ?, bio = ?, date_of_birth = ?, avatar = ? WHERE id = ?
+[2025-01-28 19:06:09] Param types: sssssi
+[2025-01-28 19:06:09] Params: Array
+(
+    [0] => talhaa
+    [1] => talha@gmail.com
+    [2] => 
+    [3] => 
+    [4] => uploads/avatars/2_1738087569.png
+    [5] => 2
+)
+
+[2025-01-28 19:06:09] Successfully updated profile for user ID: 2
+[2025-01-28 19:08:38] POST data received: Array
+(
+    [username] => talhaa
+    [email] => talha@gmail.com
+    [bio] => 
+    [date_of_birth] => 
+)
+
+[2025-01-28 19:08:38] File upload data: Array
+(
+    [name] => download.jpeg
+    [full_path] => download.jpeg
+    [type] => image/jpeg
+    [tmp_name] => F:\xampp\tmp\phpAFE9.tmp
+    [error] => 0
+    [size] => 68028
+)
+
+[2025-01-28 19:08:38] Processing update for user ID: 2
+[2025-01-28 19:08:38] Received data - Username: talhaa, Email: talha@gmail.com, Bio length: 0, DOB: 
+[2025-01-28 19:08:38] Avatar uploaded successfully: uploads/avatars/2_1738087718.jpeg
+[2025-01-28 19:08:38] Executing query: UPDATE users SET username = ?, email = ?, bio = ?, date_of_birth = ?, avatar = ? WHERE id = ?
+[2025-01-28 19:08:38] Param types: sssssi
+[2025-01-28 19:08:38] Params: Array
+(
+    [0] => talhaa
+    [1] => talha@gmail.com
+    [2] => 
+    [3] => 
+    [4] => uploads/avatars/2_1738087718.jpeg
+    [5] => 2
+)
+
+[2025-01-28 19:08:38] Successfully updated profile for user ID: 2
+[2025-01-28 19:09:43] POST data received: Array
+(
+    [username] => admin
+    [email] => admin@example.com
+    [bio] => 
+    [date_of_birth] => 
+)
+
+[2025-01-28 19:09:43] File upload data: Array
+(
+    [name] => download (1).jpeg
+    [full_path] => download (1).jpeg
+    [type] => image/jpeg
+    [tmp_name] => F:\xampp\tmp\phpAD84.tmp
+    [error] => 0
+    [size] => 87404
+)
+
+[2025-01-28 19:09:43] Processing update for user ID: 1
+[2025-01-28 19:09:43] Received data - Username: admin, Email: admin@example.com, Bio length: 0, DOB: 
+[2025-01-28 19:09:43] Avatar uploaded successfully: uploads/avatars/1_1738087783.jpeg
+[2025-01-28 19:09:43] Executing query: UPDATE users SET username = ?, email = ?, bio = ?, date_of_birth = ?, avatar = ? WHERE id = ?
+[2025-01-28 19:09:43] Param types: sssssi
+[2025-01-28 19:09:43] Params: Array
+(
+    [0] => admin
+    [1] => admin@example.com
+    [2] => 
+    [3] => 
+    [4] => uploads/avatars/1_1738087783.jpeg
+    [5] => 1
+)
+
+[2025-01-28 19:09:43] Successfully updated profile for user ID: 1

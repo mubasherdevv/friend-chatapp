@@ -1,0 +1,84 @@
+[2025-01-22 23:35:59] Processing friend action {"action":"accept_request","user_id":1,"post_data":{"action":"accept_request","friend_id":"1"}}
+[2025-01-22 23:35:59] Invalid action received {"action":"accept_request"}
+[2025-01-22 23:35:59] Invalid action 
+[2025-01-22 23:38:03] Processing friend action {"action":"accept_request","user_id":1,"post_data":{"action":"accept_request","friend_id":"1"}}
+[2025-01-22 23:38:03] Invalid action received {"action":"accept_request"}
+[2025-01-22 23:38:03] Invalid action 
+[2025-01-22 23:38:05] Processing friend action {"action":"accept_request","user_id":1,"post_data":{"action":"accept_request","friend_id":"3"}}
+[2025-01-22 23:38:05] Invalid action received {"action":"accept_request"}
+[2025-01-22 23:38:05] Invalid action 
+[2025-01-22 23:38:06] Processing friend action {"action":"reject_request","user_id":1,"post_data":{"action":"reject_request","friend_id":"3"}}
+[2025-01-22 23:38:06] Invalid action received {"action":"reject_request"}
+[2025-01-22 23:38:06] Invalid action 
+[2025-01-22 23:38:07] Processing friend action {"action":"reject_request","user_id":1,"post_data":{"action":"reject_request","friend_id":"1"}}
+[2025-01-22 23:38:07] Invalid action received {"action":"reject_request"}
+[2025-01-22 23:38:07] Invalid action 
+[2025-01-22 23:41:41] Processing friend action {"action":"reject_request","user_id":1,"post_data":{"action":"reject_request","friend_id":"1"}}
+[2025-01-22 23:41:41] Invalid action received {"action":"reject_request"}
+[2025-01-22 23:41:41] Invalid action 
+[2025-01-22 23:43:13] Processing friend action {"action":"reject_request","user_id":1,"post_data":{"action":"reject_request","friend_id":"1"}}
+[2025-01-22 23:43:13] Invalid action received {"action":"reject_request"}
+[2025-01-22 23:43:13] Invalid action 
+[2025-01-22 23:43:23] Processing friend action {"action":"accept_request","user_id":1,"post_data":{"action":"accept_request","friend_id":"3"}}
+[2025-01-22 23:43:23] Invalid action received {"action":"accept_request"}
+[2025-01-22 23:43:23] Invalid action 
+[2025-01-22 23:44:20] Processing friend action {"action":"cancel_request","user_id":1,"post_data":{"action":"cancel_request","friend_id":"1"}}
+[2025-01-22 23:44:20] Invalid action received {"action":"cancel_request"}
+[2025-01-22 23:44:20] Invalid action 
+[2025-01-22 23:44:22] Processing friend action {"action":"accept_request","user_id":1,"post_data":{"action":"accept_request","friend_id":"3"}}
+[2025-01-22 23:44:22] Invalid action received {"action":"accept_request"}
+[2025-01-22 23:44:22] Invalid action 
+[2025-01-22 23:44:32] Processing friend action {"action":"accept","user_id":1,"post_data":{"action":"accept","friend_id":"1"}}
+[2025-01-22 23:44:37] Processing friend action {"action":"accept","user_id":1,"post_data":{"action":"accept","friend_id":"3"}}
+[2025-01-22 23:46:12] Processing friend action {"action":"remove","user_id":1,"post_data":{"action":"remove","friend_id":"1"}}
+[2025-01-22 23:54:37] Processing friend action {"action":"block","user_id":3,"post_data":{"action":"block","friend_id":"1"}}
+[2025-01-22 23:54:53] Processing friend action {"action":"unblock","user_id":1,"post_data":{"action":"unblock","friend_id":"3"}}
+[2025-01-22 23:55:03] Processing friend action {"action":"unblock","user_id":3,"post_data":{"action":"unblock","friend_id":"1"}}
+[2025-01-22 23:57:03] Processing friend action {"action":"send_request_by_username","user_id":3,"post_data":{"action":"send_request_by_username"}}
+[2025-01-22 23:57:03] Username cannot be empty 
+[2025-01-22 23:57:16] Processing friend action {"action":"send_request_by_username","user_id":1,"post_data":{"action":"send_request_by_username"}}
+[2025-01-22 23:57:16] Username cannot be empty 
+[2025-01-22 23:57:21] Processing friend action {"action":"send_request_by_username","user_id":1,"post_data":{"action":"send_request_by_username"}}
+[2025-01-22 23:57:21] Username cannot be empty 
+[2025-01-22 23:58:21] Processing friend action {"action":"send_request_by_username","user_id":1,"post_data":{"action":"send_request_by_username"}}
+[2025-01-22 23:58:21] Username cannot be empty 
+[2025-01-22 23:58:36] Processing friend action {"action":"send_request_by_username","user_id":1,"post_data":{"action":"send_request_by_username"}}
+[2025-01-22 23:58:36] Username cannot be empty 
+[2025-01-22 23:58:42] Processing friend action {"action":"send_request_by_username","user_id":1,"post_data":{"action":"send_request_by_username"}}
+[2025-01-22 23:58:42] Username cannot be empty 
+[2025-01-22 23:59:37] Processing friend action {"action":"send_request_by_username","user_id":1,"post_data":{"action":"send_request_by_username","username":"admin"}}
+[2025-01-22 23:59:37] Looking up user by username {"username":"admin"}
+[2025-01-22 23:59:37] Validating friendship {"user_id":1,"friend_id":1}
+[2025-01-22 23:59:37] User validation failed {"user_id":1,"friend_id":1,"found_rows":1}
+[2025-01-22 23:59:37] Invalid user ID 
+[2025-01-22 23:59:42] Processing friend action {"action":"send_request_by_username","user_id":1,"post_data":{"action":"send_request_by_username","username":"talhaa"}}
+[2025-01-22 23:59:42] Looking up user by username {"username":"talhaa"}
+[2025-01-22 23:59:42] Validating friendship {"user_id":1,"friend_id":3}
+[2025-01-23 11:41:39] Received request {"method":"POST","post_data":{"action":"accept","friend_id":"1"},"user_id":3}
+[2025-01-23 13:52:31] Received request {"method":"POST","post_data":{"action":"send_request_by_username","username":"admin"},"user_id":1}
+[2025-01-23 13:52:31] Looking up user by username {"username":"admin"}
+[2025-01-23 13:52:31] Validating friendship {"user_id":1,"friend_id":1}
+[2025-01-23 13:52:31] You cannot add yourself as a friend 
+[2025-01-23 13:52:43] Received request {"method":"POST","post_data":{"action":"send_request_by_username","username":"talhaa"},"user_id":1}
+[2025-01-23 13:52:43] Looking up user by username {"username":"talhaa"}
+[2025-01-23 13:52:43] Validating friendship {"user_id":1,"friend_id":3}
+[2025-01-23 13:52:43] Existing friendship found {"user_id":1,"friend_id":3,"status":"accepted"}
+[2025-01-23 13:52:43] Already friends with this user 
+[2025-01-25 12:06:45] Received request {"method":"POST","post_data":{"action":"unfriend","friend_id":"1"},"user_id":3}
+[2025-01-25 12:06:45] Invalid action 
+[2025-01-25 12:06:51] Received request {"method":"POST","post_data":{"action":"unfriend","friend_id":"1"},"user_id":3}
+[2025-01-25 12:06:51] Invalid action 
+[2025-01-25 12:17:41] Received request {"method":"POST","post_data":{"action":"block","friend_id":"1"},"user_id":3}
+[2025-01-25 12:17:41] Invalid action 
+[2025-01-25 12:17:49] Received request {"method":"POST","post_data":{"action":"send_request_by_username","username":"talhaa"},"user_id":3}
+[2025-01-25 12:17:49] Looking up user by username {"username":"talhaa"}
+[2025-01-25 12:17:49] Validating friendship {"user_id":3,"friend_id":3}
+[2025-01-25 12:17:49] You cannot add yourself as a friend 
+[2025-01-25 12:17:53] Received request {"method":"POST","post_data":{"action":"send_request_by_username","username":"admin"},"user_id":3}
+[2025-01-25 12:17:53] Looking up user by username {"username":"admin"}
+[2025-01-25 12:17:53] Validating friendship {"user_id":3,"friend_id":1}
+[2025-01-25 12:17:53] Existing friendship found {"user_id":3,"friend_id":1,"status":"accepted"}
+[2025-01-25 12:17:53] Already friends with this user 
+[2025-01-26 19:32:47] Received request {"method":"POST","post_data":{"action":"accept","friend_id":"3"},"user_id":1}
+[2025-01-26 20:03:01] Received request {"method":"POST","post_data":{"action":"unfriend","friend_id":"1"},"user_id":3}
+[2025-01-26 20:03:01] Invalid action 
